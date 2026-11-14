@@ -1,0 +1,185 @@
+{
+  "schema": 1,
+  "version": "0.1.0",
+  "date": "2026-11-14",
+  "hashAlgorithm": "SHA-256",
+  "hashInput": "UTF-8 text with CRLF normalized to LF",
+  "runtimeExternalDependencies": [],
+  "developmentDependencies": [
+    {
+      "name": "typescript",
+      "version": "5.9.3",
+      "license": "Apache-2.0",
+      "integrity": "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==",
+      "bundled": false
+    }
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "baf11aa6d0a4bdfe08265e51b6c57e072725e4dd5da7a40c935c8df8aee614b3",
+      "license": "MIT"
+    },
+    {
+      "path": "ACKNOWLEDGEMENTS.md",
+      "sha256": "c177d7c42eeaaf759d33e179f7cb26aef80ee61333134dbf4022340580c0315d",
+      "license": "MIT"
+    },
+    {
+      "path": "FILES.json",
+      "sha256": null,
+      "license": "MIT",
+      "selfHashOmitted": true
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "35a9b2753a617bb0b5b57fa05c16164cfe7d962a4574379c86613ab299a124ca",
+      "license": "MIT"
+    },
+    {
+      "path": "README.md",
+      "sha256": "014668f26588d99d5d84b100de623d125ec187239b7f434ee828d0bfd2866b9b",
+      "license": "MIT"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "472e5ccdf4adf23196cbbd1fff3d0cd6dde30e262cd81a16baa5cfc81343d8e1",
+      "license": "MIT"
+    },
+    {
+      "path": "docs/INTEGRATION.md",
+      "sha256": "19e95ab4b04311970fdec1a6bef2fb2364e6f9f70a4546ec6f67cdef68ebd079",
+      "license": "MIT"
+    },
+    {
+      "path": "docs/PARAMETERS.md",
+      "sha256": "522f627214f74264fc9838ba3f535aadbe15881ff779859106a14bf6b24adef7",
+      "license": "MIT"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "sha256": "fdcf34fbd766cec1b212cb673951192b9e6084ac951cb529ea84666478845b56",
+      "license": "MIT"
+    },
+    {
+      "path": "examples/adapters.cjs",
+      "sha256": "c8ac8ca1d172ecf7b7f5358995d0ed85b6376f351667a75795c52f663d2462f6",
+      "license": "MIT"
+    },
+    {
+      "path": "examples/minimal-host.cjs",
+      "sha256": "b94f2b89085e511eb9e409893f4566a634106297f7baafa8bbb0aace4d9d28eb",
+      "license": "MIT"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "fd1319dbbd5b182edc7d6e055e919e6d8f4bc30b3bdb82ee4eeec2405e73a7d4",
+      "license": "MIT"
+    },
+    {
+      "path": "package.json",
+      "sha256": "14ad95112e67f67c1f8c658fddf4c71d4654e31198516a03904b747d797c9262",
+      "license": "MIT"
+    },
+    {
+      "path": "src/aim.js",
+      "sha256": "85601abba0e7c8da5bbf673f0565bf92015094d3633696ffaad4d8b247ed5504",
+      "license": "MIT"
+    },
+    {
+      "path": "src/burst.js",
+      "sha256": "40c1330d6122ded60d6b24cda96d2b5dbb90322abee491cf55800701fa2af04b",
+      "license": "MIT"
+    },
+    {
+      "path": "src/cadence.js",
+      "sha256": "e75e951723a0deede88af488c157dcf27b7841ae45974c429d46f2708cb2cc10",
+      "license": "MIT"
+    },
+    {
+      "path": "src/controller.js",
+      "sha256": "dcdb31ca83f5229536768f03194f1641790976f739998084c6d02680125c028a",
+      "license": "MIT"
+    },
+    {
+      "path": "src/deployment.js",
+      "sha256": "c1f024c5929f741ee9ac2ef0a5cffc3f0c02fbeb3862475f4b6ea016164091b5",
+      "license": "MIT"
+    },
+    {
+      "path": "src/dialogue.js",
+      "sha256": "f0402a0381e3ee1d344bbec651e837b8bd7102e41cc23dea96ef6493f4611999",
+      "license": "MIT"
+    },
+    {
+      "path": "src/index.d.ts",
+      "sha256": "be81cb3513941a2ef2ce96df727f9184b84231cda33bcb36b8e91b614f335a72",
+      "license": "MIT"
+    },
+    {
+      "path": "src/index.js",
+      "sha256": "179cd3911d061d31ec01cc5f5b7906fd356049351e386ff63297c282f607b1ea",
+      "license": "MIT"
+    },
+    {
+      "path": "src/math.js",
+      "sha256": "8ea7f59e3b38a34e3b91b4aa9e0f9762d9f01b1450daa27f0958489335efefb0",
+      "license": "MIT"
+    },
+    {
+      "path": "src/motion.js",
+      "sha256": "803434e207c4149c036e578c2c55ca7b2c195a80c036d294f8d7d8aad0ca898e",
+      "license": "MIT"
+    },
+    {
+      "path": "src/parameters.js",
+      "sha256": "b5589403b0d061cc17ab675139263633196f4332519cd2e50c3a2ec38d057959",
+      "license": "MIT"
+    },
+    {
+      "path": "src/roster.js",
+      "sha256": "044ecb099b13ea74f073eccbc7c2302430442d6a21889a4fe7ec39f49b445df2",
+      "license": "MIT"
+    },
+    {
+      "path": "src/sniper.js",
+      "sha256": "323a3f74f2315b39f3114640a0f1cfd179c64151f262cc0fba487cac96834993",
+      "license": "MIT"
+    },
+    {
+      "path": "src/targets.js",
+      "sha256": "9dc03967bb1e1cfd3d9577cde7a6c9a21c257d60805d326be1d73722dded7247",
+      "license": "MIT"
+    },
+    {
+      "path": "test/adapters.test.cjs",
+      "sha256": "c08d99bc819007cec051317b4b53e73298746d916daf7c7bd686e621911a2fef",
+      "license": "MIT"
+    },
+    {
+      "path": "test/control.test.cjs",
+      "sha256": "6f21c175b686d9d711e1d90548cfb30dada25a7b86bc92b8aa36d7a7327cd3da",
+      "license": "MIT"
+    },
+    {
+      "path": "test/helpers.cjs",
+      "sha256": "94009df385fecc51e0271b82c02a12beb695c11875878e044bbd3003da6468af",
+      "license": "MIT"
+    },
+    {
+      "path": "test/modules.test.cjs",
+      "sha256": "6a4d37b2195eb624d095fcb62df992e7036362c8a4be22777c3533f9577f1b12",
+      "license": "MIT"
+    },
+    {
+      "path": "test/types/consumer.cts",
+      "sha256": "7bd52338c7fc04db34efd5ec463ad413c3326e758680e50825e5dd5292316a8c",
+      "license": "MIT"
+    },
+    {
+      "path": "test/types/tsconfig.json",
+      "sha256": "e1f0d899dce87f48028304baf0d47a7314579355baacbbb4cd17e41cbb029181",
+      "license": "MIT"
+    }
+  ]
+}

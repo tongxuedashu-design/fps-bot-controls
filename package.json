@@ -1,0 +1,15 @@
+{
+  "name": "fps-bot-controls",
+  "version": "0.1.0",
+  "description": "Composable FPS bot firing, motion and lifecycle controls with host adapters",
+  "author": "达叔同学ya",
+  "license": "MIT",
+  "private": true,
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "engines": {"node": ">=20"},
+  "scripts": {"test": "node --test test/control.test.cjs test/modules.test.cjs test/adapters.test.cjs", "example": "node examples/minimal-host.cjs",
+    "typecheck":"tsc -p test/types/tsconfig.json", "verify":"npm test && npm run typecheck && npm run example"},
+  "devDependencies": {"typescript":"5.9.3"},
+  "files": ["src", "examples", "test", "docs", "README.md", "LICENSE", "THIRD_PARTY_NOTICES.md", "ACKNOWLEDGEMENTS.md", "FILES.json", "package.json", "package-lock.json"]
+}
